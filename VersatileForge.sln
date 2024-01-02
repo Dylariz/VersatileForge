@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CakeBuild", "VersatileForge\CakeBuild\CakeBuild.csproj", "{A8C8CAD6-791F-4EAC-83F1-3DA80CD3E1DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VersatileForge", "VersatileForge\VersatileForge\VersatileForge.csproj", "{D0F7B2D2-2B09-40F6-B079-42A93A9E2A31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8C8CAD6-791F-4EAC-83F1-3DA80CD3E1DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8C8CAD6-791F-4EAC-83F1-3DA80CD3E1DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8C8CAD6-791F-4EAC-83F1-3DA80CD3E1DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8C8CAD6-791F-4EAC-83F1-3DA80CD3E1DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0F7B2D2-2B09-40F6-B079-42A93A9E2A31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0F7B2D2-2B09-40F6-B079-42A93A9E2A31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0F7B2D2-2B09-40F6-B079-42A93A9E2A31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0F7B2D2-2B09-40F6-B079-42A93A9E2A31}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

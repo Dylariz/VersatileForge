@@ -1,0 +1,14 @@
+{
+	"type": "code",
+	"name": "Versatile Forge",
+	"modid": "versatileforge",
+	"version": "0.1",
+
+	"description": "Adds the ability to change the item being created in the forge",
+	"website": "https://github.com/Dylariz/VersatileForge",
+	"authors": [ "Dylariz" ],
+
+	"dependencies": {
+		"game": "1.18.15"
+	}
+}
