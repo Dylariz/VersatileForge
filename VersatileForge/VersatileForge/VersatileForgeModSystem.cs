@@ -4,6 +4,7 @@ using System.Runtime.CompilerServices;
 using HarmonyLib;
 using Vintagestory.API.Client;
 using Vintagestory.API.Common;
+using Vintagestory.API.Config;
 using Vintagestory.API.Util;
 using Vintagestory.GameContent;
 
@@ -26,8 +27,7 @@ public class VersatileForgeModSystem : ModSystem
     public override void StartClientSide(ICoreClientAPI api)
     {
         _capi = api;
-        _capi.Logger.Event("Hello from versatileforge!");
-        api.Input.RegisterHotKey(HOTKEY_CODE, "Изменить рецепт в наковальне", GlKeys.R, HotkeyType.GUIOrOtherControls);
+        api.Input.RegisterHotKey(HOTKEY_CODE, Lang.Get("versatileforge:settings-changerecipe-button"), GlKeys.R, HotkeyType.GUIOrOtherControls);
     }
 
 
@@ -158,7 +158,7 @@ public class VersatileForgeModSystem : ModSystem
                 },
                 new WorldInteraction()
                 {
-                    ActionLangCode = "Изменить рецепт",
+                    ActionLangCode = "versatileforge:blockhelp-anvil-changerecipe",
                     HotKeyCode = HOTKEY_CODE,
                     MouseButton = EnumMouseButton.Right,
                     ShouldApply = (wi, bs, es) =>
