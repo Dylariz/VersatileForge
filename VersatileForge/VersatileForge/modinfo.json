@@ -1,13 +1,15 @@
 {
-    "type": "code",
-    "modid": "VersatileForge",
-    "name": "VersatileForge",
-    "authors": [
-        "Unknown"
-    ],
-    "description": "To be added",
-    "version": "1.0.0",
-    "dependencies": {
-        "game": ""
-    }
+	"type": "code",
+	"name": "Versatile Forge",
+	"modid": "versatileforge",
+	"version": "0.0.1",
+
+	"description": "Adds the ability to change the item being created in the forge",
+	"website": "https://github.com/Dylariz",
+	"authors": [ "Dylariz" ],
+
+	"dependencies": {
+		"game": "1.18.15",
+		"survival": "1.18.15"
+	}
 }

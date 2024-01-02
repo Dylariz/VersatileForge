@@ -7,9 +7,21 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <Reference Include="0Harmony">
+          <HintPath>D:\Games\Vintage Story\Lib\0Harmony.dll</HintPath>
+        </Reference>
+        <Reference Include="Newtonsoft.Json">
+          <HintPath>D:\Games\Vintage Story\Lib\Newtonsoft.Json.dll</HintPath>
+        </Reference>
+        <Reference Include="protobuf-net">
+          <HintPath>D:\Games\Vintage Story\Lib\protobuf-net.dll</HintPath>
+        </Reference>
         <Reference Include="VintagestoryAPI">
             <HintPath>$(VINTAGE_STORY)/VintagestoryAPI.dll</HintPath>
             <Private>false</Private>
+        </Reference>
+        <Reference Include="VSSurvivalMod">
+          <HintPath>D:\Games\Vintage Story\Mods\VSSurvivalMod.dll</HintPath>
         </Reference>
     </ItemGroup>
 
